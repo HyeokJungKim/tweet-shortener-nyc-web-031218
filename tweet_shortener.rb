@@ -48,6 +48,6 @@ def shortened_tweet_truncator(tweet)
   if word > 140
     word[0..139]
   else
-    word_substituter(tweet)
+    word
   end
 end
