@@ -20,7 +20,7 @@ def word_substituter(tweet)
   common = key & arr
   arr.each map |word|
     if common.include?(word)
-
+      
     end
   end
 end
