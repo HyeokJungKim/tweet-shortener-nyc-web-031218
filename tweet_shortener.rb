@@ -18,4 +18,9 @@ def word_substituter(tweet)
   arr = tweet.split(" ")
   key = dictionary.keys
   common = key & arr
+  arr.each map |word|
+    if common.include?(word)
+
+    end
+  end
 end
