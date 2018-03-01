@@ -1,4 +1,2 @@
 # Write your code here.
-def dictionary
-
-end
+dictionary = {hello: "hi"}
