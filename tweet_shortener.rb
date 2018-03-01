@@ -24,6 +24,6 @@ def word_substituter(tweet)
     else
       word
     end
-    binding.pry
+    pry.binding
   end
 end
