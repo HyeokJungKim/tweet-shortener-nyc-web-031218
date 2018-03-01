@@ -21,8 +21,8 @@ def word_substituter(tweet)
   arr.each map |word|
     if common.include?(word)
       dictionary[word]
+    else
+      word
     end
-  else
-    word
   end
 end
