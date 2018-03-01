@@ -25,5 +25,4 @@ def word_substituter(tweet)
       word
     end
   end
-      binding.pry
 end
