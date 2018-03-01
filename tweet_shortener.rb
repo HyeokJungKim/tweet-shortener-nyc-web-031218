@@ -24,6 +24,5 @@ def word_substituter(tweet)
     else
       word
     end
-  return arr
   end
 end
